@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 import pickle
 
 data = pd.read_csv('taxi.csv')
-print(data.head())
+# print(data.head())
 
 data_x = data.iloc[:, 0:-1]
 data_y = data.iloc[:,-1]
